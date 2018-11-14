@@ -6,18 +6,17 @@ Min me-sida i kursen design
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Anton Johnsson Håkansson. Bor och arbetar hemma på gården i Adelöv när jag inte
+sitter vid datorn. Läste Teknik på Holavedsgymnasiet och gick sedan vidare till
+Systemutvecklare .NET på yrkeshögskola. När jag efter drygt en termin inte kände
+mig nöjd med upplägget och innehållet i kurserna bestämde jag mig för att byta.
+Jag hittade då Webbprogrammering på BTH och kände att den verkade mycket intressant.
+Tidigare har jag aldrig tänkt att webb kan vara roligt utan har mer velat fokusera på
+att bygga applikationer i .NET, men när webb började locka mer och mer bestämde jag
+mig för att söka till BTH.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+För att förbereda mig inför hösten läste jag två Komvux-kurser på distans,
+Webbserverprogrammering 1 och 2 och intresset för webb växte. Sedan dess har jag
+spenderat en hel del tid med HTML, CSS och PHP. Jag har dock ännu inte tagit steget
+till Javascript och alla dess ramverk. Jag känner starkt att så länge man kan klara
+sig utan ramverk så finns det ingen anledning att krångla till det.
