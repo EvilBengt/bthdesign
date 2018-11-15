@@ -28,6 +28,5 @@ mig för att söka till BTH.
 
 För att förbereda mig inför hösten läste jag två Komvux-kurser på distans,
 Webbserverprogrammering 1 och 2 och intresset för webb växte. Sedan dess har jag
-spenderat en hel del tid med HTML, CSS och PHP. Jag har dock ännu inte tagit steget
-till Javascript och alla dess ramverk. Jag känner starkt att så länge man kan klara
-sig utan ramverk så finns det ingen anledning att krångla till det.
+spenderat en hel del tid med HTML, CSS och PHP. Nu har jag börjat med både Javascript
+och ramverk inom PHP, inte helt fel faktiskt!
