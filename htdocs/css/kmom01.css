@@ -58,10 +58,6 @@ body {
     display: flex;
 }
 
-.my-navbar li {
-    list-style: none;
-}
-
 .my-navbar > li > a {
     text-decoration: none;
     color: inherit;
@@ -87,6 +83,30 @@ h6 {
 
 h1 {
     border-bottom: 5px solid #41561F;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #41561F;
+}
+
+a:hover {
+    color: #699C17;
+}
+
+code {
+    color: #41561F;
+    background-color: #111;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .right {
@@ -157,4 +177,23 @@ h1 {
 .site-footer {
     font-size: 14px;
     text-align: center;
+}
+
+.breadcrumb-list a {
+    font-size: 16px;
+}
+
+.breadcrumb-list li {
+    display: inline;
+}
+
+.breadcrumb-list li::after {
+    content: ">";
+    margin: 0 5px;
+    font-size: 14px;
+    color: #699C17;
+}
+
+.toc {
+    padding: 0;
 }
