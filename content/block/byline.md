@@ -1,5 +1,5 @@
 <div class="author-byline">
-    <figure class="figure left">
+    <figure class="byline-figure">
         <img src="img/me.jpg" class="byline-mugshot" width="95" height="96" alt="Bild på mig">
         <figcaption>
             <p>
