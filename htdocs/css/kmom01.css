@@ -98,3 +98,63 @@ h1 {
     width: 80%;
     max-width: 1000px;
 }
+
+.figure {
+    margin: 20px 0 20px 20px;
+}
+
+.figure figcaption p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.author-byline {
+    border: 3px solid #41561F;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.author-byline::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.byline-figure {
+    margin: 0;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.byline-figure > figcaption > p {
+    font-size: 14px;
+    margin: 0;
+    text-overflow: wrap;
+}
+
+.author-byline > p {
+    margin: 0;
+}
+
+.byline-name {
+    font-family: "Oswald", sans-serif;
+}
+
+.outer-wrap-footer {
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 20px;
+}
+
+.site-footer {
+    font-size: 14px;
+    text-align: center;
+}
