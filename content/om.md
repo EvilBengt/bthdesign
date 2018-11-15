@@ -27,4 +27,4 @@ därför krävs det att alla inblandade i alla fall kan grunderna.
 I kursen arbetar vi med ett php-ramverk för att inte behöva krångla med en massa back-end
 utan vi ska kunna fokusera på sidans design och uppbyggnad i första hand.
 
-[FIGURE src=img/web-design.jpg? caption="En fin bil som demobild."]
+[FIGURE src=img/web-design.jpg? caption="Webbdesign."]
