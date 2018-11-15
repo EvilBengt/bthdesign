@@ -8,7 +8,7 @@
         </figcaption>
     </figure>
     <p>
-        <span>Anton Johnsson Håkansson</span>
+        <span class="byline-name">Anton Johnsson Håkansson</span>
         Bor och arbetar hemma på gården i Adelöv när jag inte sitter vid datorn.
     </p>
 </div>
