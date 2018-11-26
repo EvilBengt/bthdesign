@@ -1,0 +1,80 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.region-header {
+    display: flex;
+}
+
+.my-navbar {
+    display: flex;
+}
+
+.columns {
+    display: flex;
+}
+
+.right {
+    float: right;
+}
+
+.toc {
+    padding: 0;
+}
+
+.column {
+    margin: 0 20px;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.outer-wrap-footer {
+    margin-top: 100px;
+}
+
+.author-byline {
+    border: 3px solid #41561F;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.author-byline::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.byline-name {
+    font-family: "Oswald", sans-serif;
+}
+
+.byline-figure > figcaption > p {
+    margin: 0;
+}
+
+.byline-figure {
+    margin: 0;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}

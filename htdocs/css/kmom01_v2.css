@@ -1,0 +1,208 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Oswald Medium'), local('Oswald-Medium'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-6hwTus9H.ttf) format('truetype');
+}
+.wrap-all {
+  background-color: #222;
+  color: #bbb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+.region-flash img {
+  width: 100%;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text > a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+.my-navbar > li > a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+}
+.my-navbar > li > a:hover {
+  color: #699C17;
+}
+.rm-submenu-button {
+  display: none;
+}
+h1 {
+  border-bottom: 5px solid #41561F;
+}
+h2 {
+  font-size: 24px;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: #699C17;
+}
+a:hover {
+  text-decoration: none;
+}
+code {
+  color: #699C17;
+  background-color: #111;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.outer-wrap-main {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+.figure {
+  margin: 0;
+}
+.figure.right {
+  margin: 20px 0 20px 20px;
+}
+.figure figcaption p {
+  font-size: 14px;
+  margin: 0;
+}
+.author-byline {
+  border: 3px solid #41561F;
+  padding: 20px;
+  margin: 20px 0;
+}
+.author-byline::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.byline-figure {
+  margin: 0;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.byline-figure > figcaption > p {
+  font-size: 14px;
+  margin: 0;
+  text-overflow: wrap;
+}
+.author-byline > p {
+  margin: 0;
+}
+.byline-name {
+  font-family: "Oswald", sans-serif;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
