@@ -93,33 +93,6 @@ code {
   font-size: 14px;
   margin: 0;
 }
-.author-byline {
-  border: 3px solid #41561F;
-  padding: 20px;
-  margin: 20px 0;
-}
-.author-byline::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.byline-figure {
-  margin: 0;
-  float: left;
-  width: 100px;
-  margin-right: 20px;
-}
-.byline-figure > figcaption > p {
-  font-size: 14px;
-  margin: 0;
-  text-overflow: wrap;
-}
-.author-byline > p {
-  margin: 0;
-}
-.byline-name {
-  font-family: "Oswald", sans-serif;
-}
 /**
  * Style for the stylechooser.
  */

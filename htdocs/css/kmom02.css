@@ -4604,6 +4604,49 @@ h6 {
 .outer-wrap-footer {
   font-size: 16px;
 }
+.author-byline > p {
+  margin: 0;
+}
+.byline-figure > figcaption > p {
+  font-size: 14px;
+  text-overflow: wrap;
+}
+.figure figcaption p {
+  font-size: 14px;
+}
+a {
+  color: #699C17;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  border-bottom: 5px solid #41561F;
+}
+h2 {
+  font-size: 24px;
+}
+ul,
+ol {
+  list-style: none;
+}
+.my-navbar > li > a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+}
+.my-navbar > li > a:hover {
+  color: #699C17;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text > a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4648,6 +4691,50 @@ h6 {
 }
 .outer-wrap-footer {
   margin-top: 100px;
+}
+.author-byline {
+  border: 3px solid #41561F;
+  padding: 20px;
+  margin: 20px 0;
+}
+.author-byline::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.byline-name {
+  font-family: "Oswald", sans-serif;
+}
+.byline-figure > figcaption > p {
+  margin: 0;
+}
+.byline-figure {
+  margin: 0;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.figure {
+  margin: 0;
+}
+.figure.right {
+  margin: 20px 0 20px 20px;
+}
+.figure figcaption p {
+  margin: 0;
+}
+.outer-wrap-main {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+.wrap-all {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+.region-flash img {
+  width: 100%;
 }
 /**
  * Layout for responsive style through media queries.
@@ -4702,4 +4789,10 @@ h6 {
   margin: 0 5px;
   font-size: 14px;
   color: #699C17;
+}
+code {
+  color: #699C17;
+  background-color: #111;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
