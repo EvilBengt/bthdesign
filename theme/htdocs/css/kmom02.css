@@ -4542,25 +4542,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max.rm-swipe-right .rm-mobile {
   right: 0;
 }
-/**
- * Style for responsive menu
- */
-/**
-  * Example on media queries
-  */
-@media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
-  }
-  .rm-desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 680px) {
-  .rm-small {
-    display: none;
-  }
-}
+/*@import "@desinax/responsive-menu/less/media-queries.less";*/
 /**
  * Internal self contained modules, save in directory module/.
  */
@@ -4598,19 +4580,6 @@ h5,
 h6 {
   font-family: serif;
 }
-.site-footer {
-  font-size: 14px;
-}
-.outer-wrap-footer {
-  font-size: 16px;
-}
-.author-byline > p {
-  margin: 0;
-}
-.byline-figure > figcaption > p {
-  font-size: 14px;
-  text-overflow: wrap;
-}
 .figure figcaption p {
   font-size: 14px;
 }
@@ -4630,23 +4599,6 @@ ul,
 ol {
   list-style: none;
 }
-.my-navbar > li > a {
-  text-decoration: none;
-  color: inherit;
-  padding: 5px 10px;
-}
-.my-navbar > li > a:hover {
-  color: #699C17;
-}
-.site-logo {
-  display: none;
-}
-.site-logo-text > a {
-  text-decoration: none;
-  color: inherit;
-  font-family: "Oswald", sans-serif;
-  font-size: 40px;
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4664,9 +4616,6 @@ ol {
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
-}
-.outer-wrap {
-  width: 100%;
 }
 .region-header {
   display: flex;
@@ -4692,31 +4641,6 @@ ol {
 .outer-wrap-footer {
   margin-top: 100px;
 }
-.author-byline {
-  border: 3px solid #41561F;
-  padding: 20px;
-  margin: 20px 0;
-}
-.author-byline::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.byline-name {
-  font-family: "Oswald", sans-serif;
-}
-.byline-figure > figcaption > p {
-  margin: 0;
-}
-.byline-figure {
-  margin: 0;
-  float: left;
-  width: 100px;
-  margin-right: 20px;
-}
-.figure {
-  margin: 0;
-}
 .figure.right {
   margin: 20px 0 20px 20px;
 }
@@ -4725,7 +4649,6 @@ ol {
 }
 .outer-wrap-main {
   margin: 0 auto;
-  width: 80%;
   max-width: 1000px;
 }
 .wrap-all {
@@ -4736,11 +4659,31 @@ ol {
 .region-flash img {
   width: 100%;
 }
+.inner-wrap-header {
+  max-width: 100%;
+}
+.author-byline > p {
+  margin: 0;
+}
+.inner-wrap-main .row {
+  display: flex;
+}
 /**
  * Layout for responsive style through media queries.
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar.
+ */
+@media screen and (max-width: 768px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
     display: none;
   }
 }
@@ -4791,8 +4734,64 @@ ol {
   color: #699C17;
 }
 code {
+  display: inline-block;
   color: #699C17;
   background-color: #111;
   padding: 5px 10px;
   border-radius: 5px;
+}
+.my-navbar > li > a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+}
+.my-navbar > li > a:hover {
+  color: #699C17;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text > a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+.byline-figure > figcaption > p {
+  font-size: 14px;
+  text-overflow: wrap;
+}
+.site-footer {
+  font-size: 14px;
+}
+.outer-wrap-footer {
+  font-size: 16px;
+}
+.author-byline {
+  border: 3px solid #41561F;
+  padding: 20px;
+  margin: 20px 0;
+}
+.author-byline::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.byline-name {
+  font-family: "Oswald", sans-serif;
+}
+.byline-figure > figcaption > p {
+  margin: 0;
+}
+.byline-figure {
+  margin: 0;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.figure {
+  margin: 0;
+}
+.article {
+  overflow: auto;
 }

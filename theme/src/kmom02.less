@@ -24,7 +24,7 @@
  * A responsive menu.
  */
 @import "@desinax/responsive-menu/less/responsive-menu.less";
-@import "@desinax/responsive-menu/less/media-queries.less";
+/*@import "@desinax/responsive-menu/less/media-queries.less";*/
 
 
 
@@ -77,8 +77,78 @@
 }
 
 code {
+    display: inline-block;
     color: #699C17;
     background-color: #111;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+.my-navbar > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+}
+
+.my-navbar > li > a:hover {
+    color: #699C17;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text > a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.byline-figure > figcaption > p {
+    font-size: 14px;
+    text-overflow: wrap;
+}
+
+.site-footer {
+    font-size: 14px;
+}
+
+.outer-wrap-footer {
+    font-size: 16px;
+}
+
+.author-byline {
+    border: 3px solid #41561F;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.author-byline::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.byline-name {
+    font-family: "Oswald", sans-serif;
+}
+
+.byline-figure > figcaption > p {
+    margin: 0;
+}
+
+.byline-figure {
+    margin: 0;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.figure {
+    margin: 0;
+}
+
+.article {
+    overflow: auto;
 }

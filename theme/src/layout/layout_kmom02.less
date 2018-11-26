@@ -16,10 +16,6 @@
     margin: 0 auto;
 }
 
-.outer-wrap {
-    width: 100%;
-}
-
 .region-header {
     display: flex;
 }
@@ -52,37 +48,6 @@
     margin-top: 100px;
 }
 
-.author-byline {
-    border: 3px solid #41561F;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.author-byline::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.byline-name {
-    font-family: "Oswald", sans-serif;
-}
-
-.byline-figure > figcaption > p {
-    margin: 0;
-}
-
-.byline-figure {
-    margin: 0;
-    float: left;
-    width: 100px;
-    margin-right: 20px;
-}
-
-.figure {
-    margin: 0;
-}
-
 .figure.right {
     margin: 20px 0 20px 20px;
 }
@@ -93,7 +58,6 @@
 
 .outer-wrap-main {
     margin: 0 auto;
-    width: 80%;
     max-width: 1000px;
 }
 
@@ -105,4 +69,16 @@
 
 .region-flash img {
     width: 100%;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.author-byline > p {
+    margin: 0;
+}
+
+.inner-wrap-main .row {
+    display: flex;
 }
