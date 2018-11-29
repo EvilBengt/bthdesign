@@ -5138,6 +5138,15 @@ figure {
   color: #699c17;
   font-size: 36px;
 }
+.breadcrumb-list li {
+  display: inline;
+}
+.breadcrumb-list li:not(:last-child)::after {
+  content: " »";
+}
+.next {
+  float: right;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
