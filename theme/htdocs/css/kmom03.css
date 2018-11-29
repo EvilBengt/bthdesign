@@ -5134,6 +5134,10 @@ figure {
 .site-logo {
   display: none;
 }
+.site-logo-text a {
+  color: #699c17;
+  font-size: 36px;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
