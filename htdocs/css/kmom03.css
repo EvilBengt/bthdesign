@@ -4889,6 +4889,30 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
+a {
+  text-decoration: none;
+  color: #41561f;
+}
+a:hover {
+  text-decoration: underline;
+  color: #699c17;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+code {
+  border: none;
+  border-radius: 2px;
+  background-color: #444;
+  padding: 2px 4px;
+}
+figcaption {
+  font-style: italic;
+}
+figure {
+  margin: 0;
+}
 /**
  * Import the vertical grid.
  */
@@ -5093,6 +5117,15 @@ hr::after {
     width: 98.95833333%;
     margin-right: 0.52083333%;
     margin-left: 0.52083333%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-column {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
 }
 /**
