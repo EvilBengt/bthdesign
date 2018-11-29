@@ -1,3 +1,5 @@
-#### Footer col 1
+#### Bakgrund
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Denna sidan utvecklas av Anton Johnsson Håkansson
+i kursen Teknisk Användbarhet och Design inom
+Webbprogrammering på Blekinge tekniska högskola.

@@ -1,3 +1,7 @@
-#### Footer col 3
+#### Relevanta länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+* [Blekinge Tekniska Högskola](https://www.bth.se/)
+* [Utbildningens egna sida](https://dbwebb.se/)
+* [Denna kursen](https://dbwebb.se/kurser/design-v2)
+
+För mer länkar, se [Om](om)
