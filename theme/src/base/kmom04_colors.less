@@ -1,10 +1,10 @@
 @outerBgColor: initial;
 @innerBgColor: @outerBgColor;
-@headerBgColor: @outerBgColor;
-@footerBgColor: @outerBgColor;
-@secondaryBgColor: @outerBgColor;
+@headerBgColor: @innerBgColor;
+@footerBgColor: @headerBgColor;
+@codeSnippetBgColor: initial;
 @textColor: initial;
-@headingColor: initial;
+@headingColor: @textColor;
 @h1Color: @headingColor;
 @linkColor: initial;
 @linkVisitedColor: initial;
@@ -65,5 +65,5 @@ a {
 }
 
 code {
-    background-color: @secondaryBgColor;
+    background-color: @codeSnippetBgColor;
 }
