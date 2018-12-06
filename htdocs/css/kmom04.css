@@ -5173,8 +5173,45 @@ img {
   color: #111;
 }
 /**
- * Theme zones
+ * Theme colors
  */
+.wrap-all {
+  background-color: initial;
+}
 .inner-wrap {
+  background-color: initial;
+}
+.inner-wrap-header {
+  background-color: initial;
+}
+.inner-wrap-footer {
+  background-color: initial;
+}
+body {
+  color: initial;
+}
+h1 {
+  color: initial;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: initial;
+}
+a {
+  color: initial;
+}
+.my-navbar > li > a {
+  color: initial;
+}
+.site-logo-text {
+  color: initial;
+}
+#rm-menu-button {
+  color: initial;
+}
+code {
   background-color: initial;
 }

@@ -1,6 +1,65 @@
-@innerBgColor: initial;
+@outerBgColor: initial;
+@innerBgColor: @outerBgColor;
+@headerBgColor: @outerBgColor;
+@footerBgColor: @outerBgColor;
+@secondaryBgColor: @outerBgColor;
+@textColor: initial;
+@headingColor: initial;
+@h1Color: @headingColor;
+@linkColor: initial;
+@linkVisitedColor: initial;
+@navColor: @textColor;
+@logoColor: @textColor;
+@hamburgerColor: @textColor;
+
+.wrap-all {
+    background-color: @outerBgColor;
+}
 
 .inner-wrap {
     background-color: @innerBgColor;
 }
 
+.inner-wrap-header {
+    background-color: @headerBgColor;
+}
+
+.inner-wrap-footer {
+    background-color: @footerBgColor;
+}
+
+body {
+    color: @textColor;
+}
+
+h1 {
+    color: @h1Color;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: @headingColor;
+}
+
+a {
+    color: @linkColor;
+}
+
+.my-navbar > li > a {
+    color: @navColor;
+}
+
+.site-logo-text {
+    color: @logoColor;
+}
+
+#rm-menu-button {
+    color: @hamburgerColor;
+}
+
+code {
+    background-color: @secondaryBgColor;
+}

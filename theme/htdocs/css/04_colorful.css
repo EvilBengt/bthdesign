@@ -5173,15 +5173,45 @@ img {
   color: #111;
 }
 /**
- * Theme zones
+ * Theme colors
  */
+.wrap-all {
+  background-color: initial;
+}
 .inner-wrap {
   background-color: initial;
 }
-/*
-@bgColorBody: #B5F2FF;
-@bgColorBodyAlt: #C26A13;
-@colorBody: #222;
-@accentColor1: #FF8419;
-@accentColor2: #FF7600;
-*/
+.inner-wrap-header {
+  background-color: initial;
+}
+.inner-wrap-footer {
+  background-color: initial;
+}
+body {
+  color: initial;
+}
+h1 {
+  color: initial;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: initial;
+}
+a {
+  color: initial;
+}
+.my-navbar > li > a {
+  color: initial;
+}
+.site-logo-text {
+  color: initial;
+}
+#rm-menu-button {
+  color: initial;
+}
+code {
+  background-color: initial;
+}
