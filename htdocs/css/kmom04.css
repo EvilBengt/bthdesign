@@ -5221,7 +5221,7 @@ a:visited {
 .my-navbar > li > ul {
   background-color: initial;
 }
-.site-logo-text {
+.site-logo-text a {
   color: initial;
 }
 #rm-menu-button {
