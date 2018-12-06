@@ -4599,11 +4599,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 body {
   font: 16px/1.5 "sans-serif";
-  color: #000;
-}
-body,
-.inner-wrap {
-  background-color: #fff;
 }
 h1,
 h2,
@@ -4891,11 +4886,9 @@ hr::after {
 }
 a {
   text-decoration: none;
-  color: #000;
 }
 a:hover {
   text-decoration: underline;
-  color: #000;
 }
 ul {
   list-style: none;
@@ -4904,7 +4897,6 @@ ul {
 code {
   border: none;
   border-radius: 2px;
-  background-color: #aaa;
   padding: 2px 4px;
 }
 figcaption {
@@ -5138,11 +5130,7 @@ img {
   display: none;
 }
 .site-logo-text a {
-  color: #000;
   font-size: 36px;
-}
-.my-navbar > li > ul {
-  background-color: #fff;
 }
 .breadcrumb-list li {
   display: inline;
@@ -5183,4 +5171,10 @@ img {
   background-color: #b5dce1;
   border: 1px solid #6cbac4;
   color: #111;
+}
+/**
+ * Theme zones
+ */
+.inner-wrap {
+  background-color: initial;
 }
