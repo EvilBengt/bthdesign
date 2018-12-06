@@ -5206,6 +5206,9 @@ a {
 .my-navbar > li > a {
   color: initial;
 }
+.my-navbar > li > ul {
+  background-color: initial;
+}
 .site-logo-text {
   color: initial;
 }
