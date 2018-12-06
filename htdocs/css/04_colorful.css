@@ -4598,7 +4598,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 body {
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 "Lato", "sans-serif";
 }
 h1,
 h2,
@@ -4606,7 +4606,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: "Oswald", "sans-serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4730,7 +4730,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "Share Tech Mono", "monospace";
 }
 code,
 samp {
@@ -5176,57 +5176,75 @@ img {
  * Preparations for themes
  */
 .wrap-all {
-  background-color: initial;
+  background-color: #8394ff;
 }
 .inner-wrap-main {
-  background-color: initial;
+  background-color: #ff9f5d;
 }
 .outer-wrap-main {
-  background-color: initial;
+  background-color: #ff9f5d;
 }
 .inner-wrap-header {
-  background-color: initial;
+  background-color: #8394ff;
 }
 .outer-wrap-header {
-  background-color: initial;
+  background-color: #8394ff;
 }
 .inner-wrap-footer {
-  background-color: initial;
+  background-color: #8394ff;
 }
 .outer-wrap-footer {
-  background-color: initial;
+  background-color: #8394ff;
 }
 body {
-  color: initial;
+  color: #222;
 }
 h1 {
-  color: initial;
+  color: #02106b;
 }
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: initial;
+  color: #02106b;
 }
 a {
-  color: initial;
+  color: #cc3803;
 }
 a:visited {
-  color: initial;
+  color: #cc3803;
 }
 .my-navbar > li a {
-  color: initial;
+  color: #222;
 }
 .my-navbar > li > ul {
-  background-color: initial;
+  background-color: #8394ff;
 }
 .site-logo-text a {
-  color: initial;
+  color: #222;
 }
 #rm-menu-button {
-  color: initial;
+  color: #222;
 }
 code {
-  background-color: initial;
+  background-color: #8394ff;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-ohoTus9H.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEA.ttf) format('truetype');
 }
