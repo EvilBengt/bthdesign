@@ -5176,45 +5176,57 @@ img {
  * Preparations for themes
  */
 .wrap-all {
-  background-color: initial;
+  background-color: #fff;
 }
-.inner-wrap {
-  background-color: initial;
+.inner-wrap-main {
+  background-color: #fff;
+}
+.outer-wrap-main {
+  background-color: #fff;
 }
 .inner-wrap-header {
-  background-color: initial;
+  background-color: #999;
+}
+.outer-wrap-header {
+  background-color: #999;
 }
 .inner-wrap-footer {
-  background-color: initial;
+  background-color: #999;
+}
+.outer-wrap-footer {
+  background-color: #999;
 }
 body {
-  color: initial;
+  color: #432;
 }
 h1 {
-  color: initial;
+  color: #432;
 }
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: initial;
+  color: #432;
 }
 a {
-  color: initial;
+  color: #55a;
 }
-.my-navbar > li > a {
-  color: initial;
+a:visited {
+  color: #55a;
+}
+.my-navbar > li a {
+  color: #432;
 }
 .my-navbar > li > ul {
-  background-color: initial;
+  background-color: #999;
 }
 .site-logo-text {
-  color: initial;
+  color: #432;
 }
 #rm-menu-button {
-  color: initial;
+  color: #432;
 }
 code {
-  background-color: initial;
+  background-color: #999;
 }

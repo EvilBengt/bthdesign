@@ -5178,13 +5178,22 @@ img {
 .wrap-all {
   background-color: initial;
 }
-.inner-wrap {
+.inner-wrap-main {
+  background-color: initial;
+}
+.outer-wrap-main {
   background-color: initial;
 }
 .inner-wrap-header {
   background-color: initial;
 }
+.outer-wrap-header {
+  background-color: initial;
+}
 .inner-wrap-footer {
+  background-color: initial;
+}
+.outer-wrap-footer {
   background-color: initial;
 }
 body {
@@ -5203,7 +5212,10 @@ h6 {
 a {
   color: initial;
 }
-.my-navbar > li > a {
+a:visited {
+  color: initial;
+}
+.my-navbar > li a {
   color: initial;
 }
 .my-navbar > li > ul {
