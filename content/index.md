@@ -1,32 +1,36 @@
 ---
-title: "Min fina titel"
-
 views:
-    byline:
+    main:
+        template: anax/v2/article/default
+        data:
+            class: blog
+
+    byline: false
+    block-about: false
+    article-toc: false
+
+    blog-list:
         region: main
-        template: anax/v2/block/default
+        template: anax/v2/blog-list/default
         sort: 2
         data:
-            meta:
-                type: single
-                route: block/byline
+            dateFormat: j F Y
+            meta: 
+                type: toc
+                orderby: publishTime
+                orderorder: desc
+
+    blog-toc:
+        region: sidebar-right
+        template: anax/v2/blog-toc/default
+        sort: 2
+        data:
+            meta: 
+                type: copy
+                view: blog-list
 
 ---
-Min me-sida i kursen design
-=========================
+Nytt och Noterat
+===========================
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Väldigt lustig bild på mig framför Brahälla i Adelöv"]
-
-Anton Johnsson Håkansson. Bor och arbetar hemma på gården i Adelöv när jag inte
-sitter vid datorn. Läste Teknik på Holavedsgymnasiet och gick sedan vidare till
-Systemutvecklare .NET på yrkeshögskola. När jag efter drygt en termin inte kände
-mig nöjd med upplägget och innehållet i kurserna bestämde jag mig för att byta.
-Jag hittade då Webbprogrammering på BTH och kände att den verkade mycket intressant.
-Tidigare har jag aldrig tänkt att webb kan vara roligt utan har mer velat fokusera på
-att bygga applikationer i .NET, men när webb började locka mer och mer bestämde jag
-mig för att söka till BTH.
-
-För att förbereda mig inför hösten läste jag två Komvux-kurser på distans,
-Webbserverprogrammering 1 och 2 och intresset för webb växte. Sedan dess har jag
-spenderat en hel del tid med HTML, CSS och PHP. Nu har jag börjat med både Javascript
-och ramverk inom PHP, inte helt fel faktiskt!
+Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
