@@ -69,9 +69,9 @@ return [
                         "title" => "Farmors gamla päronträd.",
                     ],
                     [
-                        "text" => "En ek",
-                        "url" => "blogg/ek",
-                        "title" => "En ek.",
+                        "text" => "Mitt \"kontor\"",
+                        "url" => "blogg/kontor",
+                        "title" => "Mitt \"kontor\".",
                     ]
                 ],
             ],
