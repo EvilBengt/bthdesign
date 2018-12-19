@@ -1,11 +1,10 @@
 ---
-author: mos
+author: ajh
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-12-03"
+    - landsbygd
+published: "2018-12-19"
 ---
-En ek
+Mitt "kontor"
 =====
 
 Nu har jag koll på läget, men jag måste skriva lite bättre och "catchy" rubriker.
