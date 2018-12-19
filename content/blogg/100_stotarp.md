@@ -27,7 +27,7 @@ och framsidan av trädgården lite till vänster om mitten.
 En banner kanske? {#banner}
 ---------------------------
 
-[FIGURE src="image/kmom05/stotarp.jpg?area=40,0,40,0" caption="Hade det inte varit för mörkret hade det här varit en rätt effektfull banner."]
+[FIGURE src="image/kmom05/stotarp.jpg?area=40,0,40,0" caption="Hade det inte varit för mörkret hade det här varit en rätt effektfull banner." alt="En gård (Stötarp). Aningen mörk bild."]
 
 Då himlen och marken tar upp en hel del plats i bilden
 utan att tillföra särskilt mycket kan man klippa bort det
@@ -36,7 +36,7 @@ för att kanske lyfta fram de lite mer intressanta delarna.
 Home sweet home {#home}
 ------------------------
 
-[FIGURE src="image/kmom05/stotarp.jpg?width=500&area=40,50,45,35" caption="Hmmm. Jag undrar varför proffs-fotografer inte använder mobilkamera på långt avstånd i mörker... Can you spot the ljusslingor on either side of the veranda?" class="figure left"]
+[FIGURE src="image/kmom05/stotarp.jpg?width=500&area=40,50,45,35" caption="Hmmm. Jag undrar varför proffs-fotografer inte använder mobilkamera på långt avstånd i mörker... Can you spot the ljusslingor on either side of the veranda?" class="figure left" alt="En gård (Stötarp). Aningen mörk bild."]
 
 En aning (nej, *extremt*) suddigt blir det visst om man
 zoomar in allt för mycket. Det visar att trots att bilden
@@ -50,7 +50,7 @@ ha en liten bild.
 Gråskala kanske? {#grayscale}
 -----------------------------
 
-[FIGURE src="image/kmom05/stotarp.jpg?width=800&f=grayscale" caption="Oj. Väldigt dramatiskt."]
+[FIGURE src="image/kmom05/stotarp.jpg?width=800&f=grayscale" caption="Oj. Väldigt dramatiskt." alt="En gård (Stötarp). Bild i gråskala."]
 
 I gråskala tycker jag det funkar rätt bra med både mycket
 mark och himmel kvar i bilden. Bara gråskalan i sig gjorde
@@ -61,7 +61,7 @@ bredd.
 Lite oldschool {#oldschool}
 ---------------------------
 
-[FIGURE src="image/kmom05/stotarp.jpg?width=500&f=grayscale&f0=brightness,-15&f1=contrast,-20&f2=colorize,100,50,0,0&sharpen" caption="Världen var varken orange eller svartvit förr. Det var bara kamerorna som fick det att se så ut. Och nej, alla rörde sig inte komiskt snabbt som på film heller..."]
+[FIGURE src="image/kmom05/stotarp.jpg?width=500&f=grayscale&f0=brightness,-15&f1=contrast,-20&f2=colorize,100,50,0,0&sharpen" caption="Världen var varken orange eller svartvit förr. Det var bara kamerorna som fick det att se så ut. Och nej, alla rörde sig inte komiskt snabbt som på film heller..." alt="En gård (Stötarp). Bild med tydlig sepia-effekt."]
 
 En aning in-your-face kanske men rätt effektfullt. Här blev
 himlen faktiskt rätt intressant. En rätt häftig effekt nästan
