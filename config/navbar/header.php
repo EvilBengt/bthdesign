@@ -53,6 +53,30 @@ return [
             ],
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg med bilder.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Stötarp",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Stötarp.",
+                    ],
+                    [
+                        "text" => "Päronträd",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Päronträd.",
+                    ],
+                    [
+                        "text" => "Ek",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Ek.",
+                    ]
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
