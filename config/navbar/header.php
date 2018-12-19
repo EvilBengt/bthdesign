@@ -60,17 +60,17 @@ return [
                 "items" => [
                     [
                         "text" => "Stötarp",
-                        "url" => "blogg/mitt-forsta-inlagg",
+                        "url" => "blogg/stotarp",
                         "title" => "Stötarp.",
                     ],
                     [
                         "text" => "Päronträd",
-                        "url" => "blogg/mitt-andra-inlagg",
+                        "url" => "blogg/parontrad",
                         "title" => "Päronträd.",
                     ],
                     [
                         "text" => "Ek",
-                        "url" => "blogg/mitt-tredje-inlagg",
+                        "url" => "blogg/ek",
                         "title" => "Ek.",
                     ]
                 ],
