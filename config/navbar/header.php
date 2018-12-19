@@ -61,17 +61,17 @@ return [
                     [
                         "text" => "Stötarp",
                         "url" => "blogg/stotarp",
-                        "title" => "Stötarp.",
+                        "title" => "Stötarp östergård en vintereftermiddag.",
                     ],
                     [
                         "text" => "Päronträd",
                         "url" => "blogg/parontrad",
-                        "title" => "Päronträd.",
+                        "title" => "Farmors gamla päronträd.",
                     ],
                     [
-                        "text" => "Ek",
+                        "text" => "En ek",
                         "url" => "blogg/ek",
-                        "title" => "Ek.",
+                        "title" => "En ek.",
                     ]
                 ],
             ],

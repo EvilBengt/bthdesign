@@ -4,8 +4,8 @@ category:
     - landsbygd
 published: "2018-12-19"
 ---
-Mitt första inlägg
-==================
+Stötarp
+=======
 
 En liten diskussion om en bild på Stötarp Östergård.
 
