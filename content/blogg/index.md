@@ -30,7 +30,7 @@ views:
                 view: blog-list
 
 ---
-Nytt och Noterat
+Blogg med bilder
 ===========================
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Kortare blogginlägg om bilder från området kring Stötarp.
