@@ -1,20 +1,19 @@
 ---
-author: mos
+author: ajh
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-10-03"
+    - landsbygd
+published: "2018-12-19"
 ---
 Mitt första inlägg
 ==================================
 
-Här är mitt allra första blogg inlägg.
-
-Ett blogg-inlägg innehåller en tagg för `<!--more-->` som bestämmer vilken text som visas på förstasidan.
+Här bor jag.
 
 <!--more-->
 
-Sen handlar det om att skriva sina blogg-inlägg...
+Hurr Durr
+
+[FIGURE src="image/stötarp.jpg?width=600"]
 
 
 
