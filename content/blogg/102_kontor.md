@@ -7,23 +7,39 @@ published: "2018-12-19"
 Mitt "kontor"
 =====
 
-Nu har jag koll på läget, men jag måste skriva lite bättre och "catchy" rubriker.
-
-Annars kommer ingen läsa min blogg.
+Lite julpynt på rummet kan väl inte skada?
 
 <!--more-->
 
-Man bör skriva intressanta texter, då får man fler läsare, visst är det så?
+Jag tänkte att det kunde vara kul me en inomhus-bild
+så här i jule-tider.
 
+Full bredd
+----------
 
+[FIGURE src="image/kmom05/kontor.jpg?width=800" caption="Julstämning." alt="Mitt \"kontor\""]
 
-Rubrik 2 {#anchor-hit}
------------------------------------
+Bilden blev aningen suddig, trots mikrofon-stativ för
+att hålla mobilen stilla...
 
-Text.
+Thumbnail
+---------
 
+[FIGURE src="image/kmom05/kontor.jpg?width=100&height=100&crop-to-fit" caption="Thumbnail" class="left" alt="Mitt \"kontor\""]
 
+Som thumbnail blir bilden såklart lite otydligare.
 
-### Rubrik 3 {#vad-som}
+Thingamabob
+-----------
 
-Text.
+[FIGURE src="image/kmom05/kontor.jpg?width=400&ra=-180&bgc=222222" alt="Mitt \"kontor\""]
+
+Lite lustig bild, bara för att testa.
+
+Gråskala
+--------
+
+[FIGURE src="image/kmom05/kontor.jpg?width=800&f=grayscale" caption="Nästan lite mer stämningsfullt..." alt="Mitt \"kontor\""]
+
+Det blir lite "washed out" då bilden inte är tagen
+i något HDR-läge eller liknande.
