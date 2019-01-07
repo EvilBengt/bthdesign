@@ -1,12 +1,6 @@
 Kmom06 Designelement.
 ==========================
 
-Kontrast: h1
-Skuggor: h1, kant mot footer
-Form: logga
-Genomskinlighet: logga
-Gradient: main
-
 Gradient / linjer
 -----------------
 
@@ -46,3 +40,9 @@ istället. När man hovrar över den så animeras den ut i storlek
 och genomskinligheten minskar. Detta är troligen något man
 skulle irritera sig över på en vanlig webbplats men det är
 värt att testa i alla fall.
+
+Referenser
+----------
+
+* [Canva](https://www.canva.com/learn/design-elements-principles/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Visual_design_elements_and_principles)
