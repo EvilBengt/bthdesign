@@ -35,6 +35,26 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
+                    [
+                        "text" => "Kmom10",
+                        "url" => "redovisning/kmom10",
+                        "title" => "Redovisning för kmom10.",
+                    ]
                 ],
             ],
         ],
@@ -47,7 +67,32 @@ return [
                     [
                         "text" => "Kmom04",
                         "url" => "rapport/fargschema",
-                        "title" => "Färgschema.",
+                        "title" => "Förstå webbsidors färgval.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Webbsidors laddtid.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designprincip",
+                        "title" => "Design-principer och -element.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designelement",
+                        "title" => "Designelement.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Designprinciper.",
+                    ],
+                    [
+                        "text" => "Kmom10",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Aktuell webbplatsdesign.",
                     ]
                 ],
             ],
